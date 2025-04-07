@@ -26,7 +26,7 @@ pipeline {
           allowMissing: false,
           alwaysLinkToLastBuild: false,
           keepAll: false,
-          reportDir: 'target/surefire-reports', // use relative path
+          reportDir: 'target/surefire-reports',
           reportFiles: 'index.html',
           reportName: 'HTML Report'
         ])
