@@ -22,7 +22,7 @@ pipeline {
             }
     stage('Create a Docker image from the Package Insure-Me.jar file') {
       steps {
-        sh 'docker build -t cbabu85/insure-me-app:4.0 .'
+        sh 'docker build -t venumadhav09/insure-me-app:4.0 .'
                     }
             }
     stage('Login to Dockerhub') {
