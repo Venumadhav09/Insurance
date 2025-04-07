@@ -1,11 +1,6 @@
 pipeline {
   agent any
-
-  tools {
-    maven 'maven3' // Make sure 'maven3' is configured in Jenkins Global Tools
-  }
-
-  stages {
+     stages {
     stage('Git checkout') {
       steps {
         echo 'This is for cloning the git repo'
